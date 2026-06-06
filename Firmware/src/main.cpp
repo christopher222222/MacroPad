@@ -6,8 +6,8 @@ extern volatile bool mcpActionRequired;
 
 static uint32_t lastBatteryUpdate = 0;
 
-InputClass input;
-HIDClass hid;
+extern InputClass input;
+extern HIDClass hid;
 
 void setup() {
   input.init();
