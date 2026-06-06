@@ -8,18 +8,19 @@ The Full-Suite MacroPad is a configurable macropad that incorporates Cherry MX k
  - 2000Mah Lipo Battery With Charging Circuit and Charge Sensing
  - Bluetooth Low Energy Wireless Connectivity With HID, Configuration, and Image Streaming Support (configuration and image streaming firmware support coming soon)
  - Full Low Latency NKRO (N-Key Rollover) Using MCP23017 I2C IO Expander
+ - Optional Heatset Insets on the bottom of MacroPad for Custom Mounting
 
 ## CAD Model
 This case uses an unconventional method of mounting by sliding from sides of the PCB to notches on the sides of the Front Case. After that, the case can now be fully assembled from 2 M3x5x4 heatset inserts and 2 M3x8 SHCS screws.
-![MacroPad Render](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Images/MacroPad%20Render.png)
+![MacroPad Render](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Assets/MacroPad%20Render.png)
 Made in Onshape, Rendered in Blender.
 ## PCB and Schematic
 The PCB and Schematic were both designed in EasyEDA Pro.
 ### Schematic
-![MacroPad Schematic](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Images/MacroPad%20Schematic.png)
+![MacroPad Schematic](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Assets/MacroPad%20Schematic.png)
 
 ### PCB
-![MacroPad PCB](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Images/MacroPad%20PCB.png)
+![MacroPad PCB](https://raw.githubusercontent.com/christopher222222/MacroPad/refs/heads/main/Assets/MacroPad%20PCB.png)
 (Tung for protection)
 ## Firmware
 The firmware was an alternative approach to the regular QMK Firmware. It utilizes PlatformIO with the Arduino Framework and uses an object-oriented structure. The Bluetooth Low Energy data transfer including HID is handled via NimBLE as it is a very lightweight package. The data reading from the MCP23017 uses a common Adafruit library as it simplifies much of the code.
